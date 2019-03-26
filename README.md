@@ -1,28 +1,45 @@
-# Experiment1
-## åŠŸèƒ½æ¦‚è¿°:  
-a. å½“ç”¨æˆ·åœ¨å‘½ä»¤è¡Œè¾“å…¥å‚æ•°æ—¶ï¼Œå‚æ•°ä¸ä¸º-fç”¨å‚æ•°ä¸­çš„å­—ç¬¦ä¸²ç”ŸæˆQrCodeå¹¶åœ¨æŽ§åˆ¶å°ä¸­æ‰“å°  
-b. å½“ç”¨æˆ·åœ¨å‘½ä»¤è¡Œè¾“å…¥å‚æ•°ä¸”å‚æ•°ä¸º-fæ—¶ï¼Œä»Ž-fåŽé¢çš„å‚æ•°ä¸­è¯»å–æ–‡ä»¶è·¯å¾„ï¼Œæ ¹æ®æ–‡ä»¶ä¸­çš„ä¿¡æ¯ç”Ÿæˆæœ‰äºŒç»´ç çš„bmpä½å›¾  
-c. é™åˆ¶è¾“å…¥çš„å¾…å¤„ç†çš„å­—ç¬¦ä¸²é•¿åº¦åœ¨2048ä¸ªå­—ç¬¦ä»¥å†…
-## é¡¹ç›®ç‰¹è‰²ï¼š  
-ä»ŽæŽ§åˆ¶å°ä¼ å…¥å‚æ•°ï¼Œæ—¢èƒ½æ ¹æ®å‚æ•°åœ¨æŽ§åˆ¶å°ä¸­ç›´æŽ¥ç”ŸæˆQrCodeï¼Œä¹Ÿèƒ½ä»Žæ–‡ä»¶ä¸­è¯»å–å¹¶å°†QrCodeç”Ÿæˆä¸ºä½å›¾æ–‡ä»¶
-## ä»£ç æ€»é‡ï¼š  
-79è¡Œ
-## å·¥ä½œæ—¶é—´ï¼š  
-2å°æ—¶
-## ç»“è®ºï¼š  
-### 1. å½“è¾“å…¥çš„å‚æ•°æ— æ•ˆæ—¶ï¼š  
-a) å½“æ— å‚æ•°æ—¶  
-b)å½“å‚æ•°ä¸º-fä½†-fåŽæœªè·Ÿå‚æ•°æ—¶  
-c)å½“-fåŽå‚æ•°æ‰€æŒ‡å®šæ–‡ä»¶ä¸å­˜åœ¨æ—¶  
-![screen ](pictures/1.png)
-### 2. å½“å‚æ•°ä¸ºä¸€ä¸²å­—ç¬¦ä¸²ä¸”å­—ç¬¦ä¸²é•¿åº¦è¶…è¿‡2000ä¸ªå­—ç¬¦æ—¶ï¼š  
-![screen ](pictures/2.png)
-### 3. å½“å‚æ•°ä¸ºä¸€ä¸²éœ€è¦å¤„ç†ä¸ºQrCodeçš„å­—ç¬¦ä¸²æ—¶ï¼š  
-å¦‚å­—ç¬¦ä¸²ï¼šqwertyuiop1234567890   
-![screen ](pictures/3.png)
-### 4. å½“å‚æ•°ä¸º-fä¸”-fåŽå‚æ•°ä¸ºä¸€ä¸ªæœ‰æ•ˆæ–‡ä»¶çš„è·¯å¾„æ—¶ï¼š  
-![screen ](pictures/4.png)  
-å¦‚ï¼š-f 123.txt:  
-![screen ](pictures/5.png)  
-å¦‚ï¼š-f abc/123.txt:  
-![screen ](pictures/6.png)  
+#¡¶C#¿ØÖÆÌ¨±à³Ì¡·ÊµÑé±¨¸æ
+Ñ§Ôº£ºÈí¼þÑ§Ôº    °à¼¶£º4°à    Ñ§ºÅ£º3017218178    ÐÕÃû£ºÕÅ½£·æ
+ÈÕÆÚ£º2019Äê3ÔÂ14ÈÕ
+## Ò»¡¢¹¦ÄÜ¸ÅÊö   
+1) µ±ÓÃ»§ÔÚÃüÁîÐÐÊäÈë²ÎÊýÊ±£¬ÅÐ¶Ï²ÎÊýÊÇ·ñÊÇQrCode¿ÉÒÔÉú³ÉµÄÐÅÏ¢£¬µ±·ûºÏÒªÇóÊ±¾ÍÖ±½ÓÔÚ¿ØÖÆÌ¨²úÉúQrCodeµÄ½á¹û   
+2) µ±ÓÃ»§ÔÚÃüÁîÐÐÊäÈë²ÎÊýÇÒ²ÎÊýÒÔ-f¿ªÍ·Ê±£¬´Ó-fºóÃæµÄÐÅÏ¢È¡µÃÎÄ¼þÂ·¾¶£¬¸ù¾ÝÎÄ¼þÖÐµÄÐÅÏ¢Éú³É´øQrCodeÐÅÏ¢µÄbmpÎ»Í¼   
+3) ÏÞÖÆÊäÈëµÄ´ý´¦ÀíµÄ×Ö·û´®³¤¶ÈÔÚ256¸ö×Ö·ûÒÔÄÚ   
+## ¶þ¡¢ÏîÄ¿ÌØÉ«   
+1) ¼ÈÊµÏÖÁË¿ØÖÆÌ¨ÊäÈë£¬ÓÖÊµÏÖÁËÎÄ¼þÊäÈë£»   
+2) ¼ÈÄÜÔÚ¿ØÖÆÌ¨Êä³ö£¬Ò²¿É½«ÐÅÏ¢´æ´¢ÔÚÓÐQrCodeµÄÎ»Í¼ÎÄ¼þÖÐ£»   
+3) ¶ÔÓÉÊäÈëÔì³ÉµÄ¸÷ÖÖ¿ÉÄÜµÄÒì³£¶¼»ù±¾×öµ½ÁË½ÏºÃµÄ´¦Àí£»   
+## Èý¡¢´úÂë×ÜÁ¿   
+96ÐÐ   
+## ËÄ¡¢¹¤×÷Ê±¼ä   
+2Ð¡Ê±
+## Îå¡¢ÖªÊ¶µã×Ü½áÍ¼   
+ ![screen ](pictures/0.png)
+## Áù¡¢½áÂÛ
+#### 1.1ÏîÄ¿Ãû³Æ£º
+QrCode¿ØÖÆÌ¨Êä³ö
+#### 1.2²Ù×÷²½Öè£º
+ÔÚ¿ØÖÆÌ¨ÖÐÔËÐÐ³ÌÐò£¬³ÌÐòºó¸úÒ»¸öÐèÒª±»´¦ÀíÎªQrCodeµÄ×Ö·û´®²ÎÊý¡£
+#### 1.3Êµ¼Ê½á¹ûÃèÊö¡¢½áÂÛ£º
+µ±Î´ÊäÈë²ÎÊýÊ±£¬ÌáÊ¾°ïÖúÐÅÏ¢£¬²¢Õý³£ÖÕÖ¹³ÌÐò¡£
+  ![screen ](pictures/1.png)   
+µ±ÊäÈëµÄ×Ö·û´®²ÎÊýµÄ³¤¶È³¬¹ý¹æ¶¨µÄ³¤¶ÈÊ±£¬ÌáÊ¾°ïÖúÐÅÏ¢£¬²¢Õý³£ÖÕÖ¹³ÌÐò¡£
+  ![screen ](pictures/2.png)   
+µ±ÊäÈëµÄ×Ö·û´®Âú×ãÌõ¼þÊ±£¬Ö±½ÓÔÚ¿ØÖÆÌ¨Ê¾QrCodeÂë¡£
+  ![screen ](pictures/3.png)   
+#### 2.1ÏîÄ¿Ãû³Æ£º
+ QrCode´ÓÎÄ¼þÖÐ¶ÁÈ¡×Ö·û´®²¢Éú³É´øÓÐQrCodeÐÅÏ¢µÄÎ»Í¼ÎÄ¼þ   
+#### 2.2²Ù×÷²½Öè£º
+ÔÚ¿ØÖÆÌ¨ÖÐÔËÐÐ³ÌÐòÊ±£¬ÒÔ-f***(-f+ÎÄ¼þÃû)µÄÐÎÊ½´«Èë²ÎÊý¡£   
+#### 2.3Êµ¼Ê½á¹ûÃèÊö¡¢½áÂÛ£º
+ µ±²ÎÊý-fºóÎ´¸úÈÎºÎÓÐ¹ØÎÄ¼þµÄÐÅÏ¢Ê±£¬ÌáÊ¾°ïÖúÐÅÏ¢£¬²¢Õý³£ÖÕÖ¹¡£   
+  ![screen ](pictures/4.png)   
+µ±²ÎÊý-fºóµÄÎÄ¼þÎÞÐ§Ê±£¬ÌáÊ¾°ïÖúÐÅÏ¢£¬²¢Õý³£ÖÕÖ¹¡£   
+  ![screen ](pictures/5.png)   
+µ±²ÎÊý-fºóµÄÎÄ¼þÓÐÐ§Ê±   
+  ![screen ](pictures/6.png)   
+  ![screen ](pictures/7.png)   
+µ±ÔÙ´ÎÖ´ÐÐÕýÈ·ÃüÁî£¬±¾´ÎÖ´ÐÐÄÜ¹»ÕýÈ·¸²¸ÇÔ­ÓÐÍ¼Æ¬¡£   
+  ![screen ](pictures/8.png)   
+  ![screen ](pictures/9.png)   
+
